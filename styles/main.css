@@ -143,6 +143,7 @@ tr{
 /*end item*/
 
 .header-mid-form{
+    padding-top: 40px;
 
     position: relative;
     width: 270px;
@@ -153,8 +154,118 @@ tr{
     top: -730px;
     left: 800px;
 
+    text-align: center;
+
 }
 
+.form-title{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.form-title-orange{
+    color: #ff6b00;
+}
+
+.form-costs{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 10px;
+}
+
+.form-cost-old-title{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.form-old-price{
+    margin: 0;
+    text-decoration: #ff6b00 line-through;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.form-cost-new-title{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.form-new-price{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 104px;
+    height: 38px;
+    background-color: #ffc002;
+    border: #ffc002 solid 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-name{
+   width: 220px;
+    height: 65px;
+    border: solid 1px #edf1f6;
+    background-color: #edf1f6;
+    border-radius: 32px;
+
+    background-image: url('../images/name_form.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.form-telephone{
+    width: 220px;
+    height: 65px;
+    border: solid 1px #edf1f6;
+    border-radius: 32px;
+    background-color: #edf1f6;
+    background-image: url('../images/telephone_form.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.form-send{
+    width: 218px;
+    height: 70px; 
+    background-color: #ffc002;
+    border: 1px solid #ffc702;
+    border-radius: 32px;
+
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-send:hover{
+    color: #ffc002;
+    background-color: #000000;
+}
+
+.form-less{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+}
 
 
 
@@ -182,6 +293,12 @@ tr{
         background-image: none;
     }
     .leg-img{
+        display: none;
+    }
+    .punkt-1,
+    .punkt-1-image::before,
+    .punkt-2-image::before,
+    .punkt-3-image::before{
         display: none;
     }
 }
